@@ -1,6 +1,6 @@
 # Python Sudoku
 
-A standard-library Tkinter desktop Sudoku app.
+A standard-library Tkinter desktop Sudoku app.  This was just a quick test of using Codex because my dad wanted to look at algorithms for populating and solving sudoku.  It builds an executable with pyinstaller, the dev version can build up to 81x81 sudokus (untested), and an interesting thing to note is that in _best_empty_cell of generator.py, the ai did not automatically add the short circuit for if count == 1: return best, but did recognize it would not break anything when I suggested adding it after reviewing the algorithm, which has interesting follow-ons for prompting it differently when implementing in order to minimize/maximize code length, computational optimization, etc. in actual development use.
 
 ## Run
 
